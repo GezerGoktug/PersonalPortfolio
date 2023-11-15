@@ -22,8 +22,12 @@
     color: aliceblue;
     font-size: 28px;
     display: block;
+    padding: 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.nav a:hover{
+    background-color:rgb(91, 48, 19) ;
+} 
 /* *NAVBAR STYLES */
 /* *WELCOME-SECTİON STYLES */
 #welcome-section{
@@ -41,7 +45,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #welcome-section h1{
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 /* *WELCOME-SECTİON STYLES */
@@ -54,6 +58,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 #projects h2{
+    color: aliceblue;
+    text-shadow: 2px 2px 1px 1px black;
     padding-top:70px ;
     font-size: 50px;
     
@@ -73,6 +79,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .project-tile{
     background-color: rgb(48, 45, 45);
     width: 40vh;
+    border-radius:4px  ;
 }
 .project-tile a h3{
     color: aliceblue;
