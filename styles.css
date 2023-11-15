@@ -25,3 +25,24 @@
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* *NAVBAR STYLES */
+/* *WELCOME-SECTİON STYLES */
+#welcome-section{
+    margin-top: 73.91px;
+    height: calc(100vh - 73.91px);
+    text-align: center;   
+    background-image:url("https://get.wallhere.com/photo/Stable-Diffusion-4k-ai-art-digital-art-fantasy-art-2216598.jpg") ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 100px;
+    word-spacing: 10px;
+}
+
+#welcome-section h1{
+    padding-top: 100px;
+}
+
+/* *WELCOME-SECTİON STYLES */
