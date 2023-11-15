@@ -68,7 +68,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 70px;
     display: flex;
     justify-content: space-around;
-  
 }
 .project-flex img{
     width: 100%;
@@ -78,7 +77,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .project-tile{
     background-color: rgb(48, 45, 45);
-    width: 40vh;
+    width: 35vh;
     border-radius:4px  ;
 }
 .project-tile a h3{
@@ -117,3 +116,196 @@ transition: top 2s ease-in ;
 
 
 /* *CONTACT STYLES */
+/* *RESPONSİVE STYLES */
+@media (max-width:1200px){
+    .nav{
+        gap: 25px;
+        height:8% ;
+    }
+    .nav a{
+        font-size: 24px;
+        padding: 7px;
+    }
+    #welcome-section{
+        font-size: 55px;
+        line-height: 80px;
+        word-spacing: 9px;
+    }
+    #welcome-section h1{
+        padding-top: 130px;
+    }
+    #projects h2{
+        font-size:40px ;
+        padding-top:50px ;
+    }
+    .project-flex{
+        padding-top: 50px;
+    }
+    .project-flex img{
+        height: 300px;
+    }
+    .project-tile{
+        width: 30vh;
+    }
+    .project-tile a h3{
+        font-size: 18px;
+    }
+    #contact{
+        font-size: 45px;
+        line-height: 90px;
+    }
+    
+    
+}
+@media (max-width:992px){
+    .nav{
+        gap: 25px;
+        height:8% ;
+    }
+    .nav a{
+        font-size: 24px;
+        padding: 5px;
+    }
+    #welcome-section{
+        font-size: 45px;
+        line-height: 80px;
+        word-spacing: 9px;
+    }
+    #welcome-section h1{
+        padding-top: 110px;
+    }
+    #projects h2{
+        font-size:40px ;
+        padding-top:40px ;
+    }
+    .project-flex{
+        padding-top: 50px;
+    }
+    .project-flex img{
+        height: 250px;
+    }
+    .project-tile{
+        width: 25vh;
+    }
+    .project-tile a h3{
+        font-size: 18px;
+    }
+    #contact{
+        font-size: 45px;
+        line-height: 90px;
+    }
+    
+    
+}
+@media (max-width:768px){
+    .nav{
+        gap: 20px;
+        height: 6%;
+        
+    } 
+    .nav a{
+        font-size: 24px;
+        padding: 3px;
+    }
+    #welcome-section{
+        font-size: 35px;
+        line-height: 70px;
+        word-spacing: 8px;
+    }
+    #welcome-section h1{
+        padding-top: 100px;
+    }
+    #projects h2{
+        font-size:35px ;
+        padding-top:30px ;
+    }
+    .project-flex{
+        padding-top: 40px;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .project-flex img{
+        height: 200px;
+    }
+    .project-tile{
+        width: 20vh;
+    }
+    .project-tile a h3{
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+    #contact{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    #contact h2{
+        padding-top: 120px;
+    }
+    .profile a { 
+        display: block;
+        padding: 4px 0;
+        text-align: center;
+    }
+    
+}
+@media (max-width:576px){
+    .nav{
+        gap: 10px;
+        height: 5%;
+    }
+    .nav a{
+        font-size: 20px;
+        padding: 5px;
+    }
+    #welcome-section{
+        font-size: 25px;
+        line-height: 60px;
+        word-spacing: 7px;
+    }
+    #welcome-section h1{
+        padding-top: 85px;
+    }
+    #projects h2{
+        font-size:30px ;
+        padding-top:20px ;
+    }
+    .project-flex{
+        padding-top: 30px;
+        gap: 10px;
+    }
+    
+    .project-flex img{
+        height: 200px;
+    }
+    .project-tile{
+        width: 20vh;
+    }
+    .project-tile a h3{
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    #contact{
+        font-size: 25px;
+        line-height: 70px;
+    }
+    #contact h2{
+        padding-top: 100px;
+    }
+    .profile a { 
+        display: block;
+        padding: 2px 0;
+        text-align: center;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* *RESPONSİVE STYLES */
