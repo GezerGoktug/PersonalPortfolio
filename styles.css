@@ -3,4 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
+/* *NAVBAR STYLES */
+.nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(40, 21, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 10%;
+}
+.nav a{
+    color: aliceblue;
+    font-size: 28px;
+    display: block;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* *NAVBAR STYLES */
