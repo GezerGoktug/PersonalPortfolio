@@ -8,28 +8,28 @@
   </head>
   <body>
     <div class="container">
-      <aside class="aside">
-        <div class="aside-header"><h1>CSS Tutorial</h1></div>
+      <nav id="navbar" class="aside">
+        <header><div class="aside-header"><h1>CSS Tutorial</h1></div></header>
         <div class="side-bar">
-          <a href="#section-1">Introduction</a>
-          <a href="#section-2">Syntax</a>
-          <a href="#section-3">Selectors</a>
-          <a href="#section-4">Colors</a>
-          <a href="#section-5">Backgrounds</a>
-          <a href="#section-6">Margin</a>
-          <a href="#section-7">Padding</a>
-          <a href="#section-8">Height/Width</a>
-          <a href="#section-9">Text</a>
-          <a href="#section-10">Font</a>
-          <a href="#section-11">Lists</a>
-          <a href="#section-12">Tables</a>
-          <a href="#section-13">Display</a>
-          <a href="#section-14">Position</a>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+          <a class="nav-link" href="#Syntax">Syntax</a>
+          <a class="nav-link" href="#Selectors">Selectors</a>
+          <a class="nav-link" href="#Colors">Colors</a>
+          <a class="nav-link" href="#Backgrounds">Backgrounds</a>
+          <a class="nav-link" href="#Margin">Margin</a>
+          <a class="nav-link" href="#Padding">Padding</a>
+          <a class="nav-link" href="#Height_Width">Height_Width</a>
+          <a class="nav-link" href="#Text">Text</a>
+          <a class="nav-link" href="#Font">Font</a>
+          <a class="nav-link" href="#Lists">Lists</a>
+          <a class="nav-link" href="#Tables">Tables</a>
+          <a class="nav-link" href="#Display">Display</a>
+          <a class="nav-link" href="#Position">Position</a>
         </div>
-      </aside>
-      <main class="main">
-        <section id="section-1" class="section-1">
-          <h2>Introduction</h2>
+      </nav>
+      <main id="main-doc" class="main">
+        <section id="Introduction" class="main-section">
+         <header> Introduction</header>
           <h3>What is CSS?</h3>
           <ul>
             <li>CSS stands for Cascading Style Sheets</li>
@@ -50,8 +50,8 @@
             screen sizes
           </p>
         </section>
-        <section id="section-2" class="section-2">
-          <h2>Syntax</h2>
+        <section id="Syntax" class="main-section">
+       <header>   Syntax  </header>
           <p>
             The selector points to the HTML element you want to style. <br />
 
@@ -68,8 +68,8 @@
             <div>h1 {color:blue ; font-size:12px;}</div>
           </code>
         </section>
-        <section id="section-3" class="section-3">
-          <h2>Selectors</h2>
+        <section id="Selectors" class="main-section">
+    <header>      Selectors  </header>
           <p>
             CSS selectors are used to "find" (or select) the HTML elements you
             want to style.<br />We can divide CSS selectors into five
@@ -93,8 +93,8 @@
             </li>
           </ul>
         </section>
-        <section id="section-4" class="section-4">
-          <h2>Colors</h2>
+        <section id="Colors" class="main-section">
+    <header>     Colors</header>
           <p>
             Colors are specified using predefined color names, or RGB, HEX, HSL,
             RGBA, HSLA values.
@@ -105,8 +105,8 @@
           <div class="color-box">green</div>
           <div class="color-box">gray</div>
         </section>
-        <section id="section-5" class="section-5">
-          <h2>Backgrounds</h2>
+        <section id="Backgrounds" class="main-section">
+      <header>Backgrounds</header>
           <p>The CSS background properties are used to add background effects for elements.</p>
           <h4>CSS background-color</h4>
           <p>The background-color property specifies the background color of an element.</p>
@@ -117,15 +117,23 @@
 
            <br> By default, the image is repeated so it covers the entire element</p>
         </section>
-        <section id="section-6" class="section-6"></section>
-        <section id="section-7" class="section-7"></section>
-        <section id="section-8" class="section-8"></section>
-        <section id="section-9" class="section-9"></section>
-        <section id="section-10" class="section-10"></section>
-        <section id="section-11" class="section-11"></section>
-        <section id="section-12" class="section-12"></section>
-        <section id="section-13" class="section-13"></section>
-        <section id="section-14" class="section-14"></section>
+        <section id="Margin" class="main-section"> <header>Margin  </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p></section>
+        <section id="Padding" class="main-section"> <header> Padding </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p></section>
+        <section id="Height_Width" class="main-section"> <header> Height_Width</header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p> </header></section>
+        <section id="Text" class="main-section"> <header>Text </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p></section>
+        <section id="Font" class="main-section">  <header>Font </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p></section>
+        <section id="Lists" class="main-section"> <header> Lists </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p> <code>
+            <div></div>
+          </code></section>
+        <section id="Tables" class="main-section"> <header> Tables </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p> <code>
+            <div>h1 {color:blue ; font-size:12px;}</div>
+          </code></section>
+        <section id="Display" class="main-section"> <header>Display </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p> <code>
+            <div>h1 {color:blue ; font-size:12px;}</div>
+          </code></section>
+        <section id="Position" class="main-section"> <header> Position </header><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, sint?</p> <code>
+            <div>h1 {color:blue ; font-size:12px;}</div>
+          </code></section>
       </main>
     </div>
   </body>

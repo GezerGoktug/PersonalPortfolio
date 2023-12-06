@@ -7,7 +7,8 @@
   text-decoration: none;
   color: black;
 }
-body {
+body,
+ul {
   background-color: #a7bcb9;
   margin: 0;
   padding: 0;
@@ -107,15 +108,12 @@ main .features {
   font-weight: 1200;
 }
 
-
 /* *FEATURE SECTİON */
 /* *İNFO VİDEOS SECTİON */
-.infovideos-section div{
+.infovideos-section div {
   text-align: center;
-
-
 }
-#video{
+#video {
   height: 300px;
   width: 560px;
 }
@@ -123,19 +121,48 @@ main .features {
 /* *PRİCİNG SECTİON */
 
 .pricing {
-  margin: 50px 12%;
+  margin: 50px 10%;
   display: grid;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: 30% 30% 30%;
+  height: 700px;
   justify-content: space-between;
-
+  text-align: center;
 }
-.card{
+.card {
   border: 2px solid black;
-  border-radius: 2;
+  border-radius: 2px;
+  height: 700px;
 }
-
-
-
+.card-header {
+  height: 50px;
+  font-size: larger;
+}
+.card-text {
+  height: 350px;
+  font-size: 20px;
+}
+.card-text button {
+  width: 40%;
+  background-color: orangered;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.card-text button:hover {
+  background-color: darkorange;
+  transform: scale(1.2, 1.2);
+}
+.pricing img {
+  width: 100%;
+  image-rendering: crisp-edges;
+  height: 300px;
+}
 
 /* *PRİCİNG SECTİON */
 
@@ -177,6 +204,36 @@ main .features {
   .item .descp {
     width: 85%;
   }
+  .pricing {
+    margin: 50px 7%;
+    height: 450px;
+    grid-template-columns: 31% 31% 31%;
+  }
+  .card {
+    height: 450px;
+  }
+  .card-header {
+    font-size: 12px;
+  }
+  .card-text {
+    font-size: 12px;
+    height: 450px;
+    text-align: center;
+  }
+
+  .card-text button {
+    margin-top: 5px;
+    height: 20px;
+    font-size: 7px;
+    width: 60%;
+    margin-top: 10px;
+  }
+  .card-text button:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .pricing img {
+    height: 150px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -216,6 +273,36 @@ main .features {
   .item .descp {
     width: 80%;
     font-size: 15px;
+  }
+  .pricing {
+    margin: 50px 7%;
+    height: 450px;
+    grid-template-columns: 31% 31% 31%;
+  }
+  .card {
+    height: 450px;
+  }
+  .card-header {
+    font-size: 12px;
+  }
+  .card-text {
+    font-size: 12px;
+    height: 350px;
+    text-align: center;
+  }
+
+  .card-text button {
+    margin-top: 5px;
+    height: 20px;
+    font-size: 7px;
+    width: 60%;
+    margin-top: 10px;
+  }
+  .card-text button:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .pricing img {
+    height: 150px;
   }
 }
 
@@ -258,9 +345,38 @@ main .features {
     padding-left: 10px;
     font-size: 12px;
   }
-  #video{
+  #video {
     height: 20%;
     width: 50%;
+  }
+  .pricing {
+    margin: 50px 5%;
+    height: 450px;
+    grid-template-columns: 32% 32% 32%;
+  }
+  .card {
+    height: 450px;
+  }
+  .card-header {
+    font-size: 10px;
+  }
+  .card-text {
+    font-size: 10px;
+    height: 150px;
+    text-align: center;
+  }
+
+  .card-text button {
+    margin-top: 5px;
+    height: 20px;
+    font-size: 10px;
+    width: 60%;
+  }
+  .card-text button:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .pricing img {
+    height: 150px;
   }
 }
 /* *RESPONSİVE */
